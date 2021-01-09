@@ -1,0 +1,36 @@
+{
+  "name": "popcorntime",
+  "version": "1.0.0",
+  "description": "No more downloads hassle! The best movies & TV shows, for free! Directly on Popcorn Time API in HD + subtitles",
+  "main": "./src/index.js",
+  "scripts": {
+    "start:api": "nodemon src/index.js"
+  },
+  "keywords": [
+    "popcorntime",
+    "popcorntime api",
+    "Popcorn Time",
+    "Popcorn Time API"
+  ],
+  "author": {
+    "name": "Chris Michael",
+    "email": "chrisperezsantiago1@gmail.com",
+    "social": {
+      "github": "https://github.com/ChrisMichaelPerezSantiago",
+      "twitter": "https://twitter.com/Chris5855M"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.7"
+  }
+}
