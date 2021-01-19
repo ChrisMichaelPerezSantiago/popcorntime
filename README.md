@@ -794,6 +794,61 @@ const main = async() =>{
 }
 ```
 
+## animeShows([options])
+
+|page                 |   
+|---------------------|
+|[1 .. unknown limit] |
+
+
+|sortby             |   
+|-------------------|
+| seeds (Popularity), dateadded, year, title |               
+
+
+|genre         |
+|--------------|
+|action,adventure,animation,biography,comedy,crime,documentary,drama,family,fantasy,film-noir,history,horror,music,musical,mystery,romance,sci-fi,short,sport,thriller,war,western |      
+
+
+
+```javascript
+const main = async() =>{
+  const options = {
+    page: 1,
+    sortby: 'seeds',
+    genre: 'action'
+  };
+  const data = await animeShows(options);
+};
+```
+
+```json
+{
+  title: 'Bleach',
+  year: 2012,
+  rating: 7.98,
+  imdb: 'tt0434665',
+  actors: '',
+  writers: '',
+  directors: null,
+  description: "15-year-old Kurosaki Ichigo is not your everyday high school student. He has from as far he can remember always had the ability to see ghosts and spirits. A fateful day arrives as Ichigo encounters the shinigami Kuchiki Rukia, who saves him and his family from a Hollow at the cost of injuring herself. During this encounter, with Rukia unable to defeat the hollow she transfers her shinigami powers into Ichigo. In the aftermath, unable to continue with her job, Rukia allows Ichigo to take on the role of a shinigami in her place as they together defeat the Hollows plaguing Ichigo's town. ",
+  poster_med: 'https://cdn.myanimelist.net/images/anime/3/40451.jpg',
+  poster_big: 'https://cdn.myanimelist.net/images/anime/3/40451.jpg',
+  genres: [ 'Shounen', 'Action', 'Supernatural', 'Super Power', 'Comedy' ],
+  torrents: [
+    [Object], [Object],
+    [Object], [Object],
+    [Object], [Object],
+    [Object], [Object],
+    [Object], [Object],
+    [Object], [Object],
+    [Object]
+  ]
+}
+
+```
+
 
 
 ## **:handshake: Contributing**
