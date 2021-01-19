@@ -17,6 +17,10 @@
 </p> 
 
 
+## API Updates
+✅ **Last Version:** 1.0.1
+  - [x] The **animeShows** function has been implemented, this function returns a list of anime series. 
+
 
 # 📖 API Documentation
 
